@@ -1,12 +1,17 @@
 from asyncio import create_subprocess_exec, create_task, gather, run
 from asyncio.subprocess import DEVNULL
+from re import compile
 
 from aioconsole import ainput, aprint
 
+# https://stackoverflow.com/a/14693789/12248328
+ansi_escape = compile(r'\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])')
+log_file = open("bump.log", "a", encoding="utf-8")
+
 
 async def bump_item(item: str):
-    await aprint("Scheduled bump for: " + item)
-    await create_subprocess_exec("brew", "bump", "--open-pr",  item, stdin=DEVNULL, stdout=DEVNULL, stderr=DEVNULL)
+    log_file.write(item + "\n")
+    await create_subprocess_exec("brew", "bump", "--open-pr", item, stdin=DEVNULL, stdout=DEVNULL, stderr=DEVNULL)
 
 
 def filter(line: str) -> bool:
@@ -20,7 +25,7 @@ async def main():
             if not filter(text):
                 continue
             else:
-                package = text.split(": ")[0].strip()
+                package = ansi_escape.sub('', text.split(": ")[0].strip())
                 tasks.append(create_task(bump_item(package)))
     except EOFError:
         # We're done.
