@@ -5,8 +5,8 @@ from aioconsole import ainput, aprint
 
 
 async def bump_item(item: str):
-    await aprint("Bumping", item)
-    await create_subprocess_exec("brew", "bump", item, stdin=DEVNULL, stdout=DEVNULL, stderr=DEVNULL)
+    await aprint("Scheduled bump for: " + item)
+    await create_subprocess_exec("brew", "bump", "--open-pr",  item, stdin=DEVNULL, stdout=DEVNULL, stderr=DEVNULL)
 
 
 def filter(line: str) -> bool:
