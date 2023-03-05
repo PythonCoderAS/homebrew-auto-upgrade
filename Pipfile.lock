@@ -18,11 +18,11 @@
     "default": {
         "aioconsole": {
             "hashes": [
-                "sha256:2c3f29116d209ffe21c0ef2e5846882891819bd714d630e4350a4b19a61aac0a",
-                "sha256:ec08ca307bfc1d81ccc156d00b8c7eae510fe03a91a48d5aed95f50915b3e9d6"
+                "sha256:520313bc5d7ed6bea3baf072ce7e622479afd67c01b3fdcc076bc528da354f6f",
+                "sha256:79da3a0a092e1fde87ee3a68d44f36d7286f3f0d7029dfa05d95c4b80ce566fd"
             ],
             "index": "pypi",
-            "version": "==0.6.0"
+            "version": "==0.6.1"
         }
     },
     "develop": {
@@ -107,7 +107,7 @@
                 "sha256:23ac5d50538a9a38c8bde05fecb47d0b403ecd0662857a86f886f798563d5b9b",
                 "sha256:45ea77a2f7c60418850331366c81cf6b5b9cf4c7fd34616f733c5427e6abbb1f"
             ],
-            "markers": "python_version >= '3.7'",
+            "markers": "python_full_version >= '3.7.0'",
             "version": "==3.0.38"
         },
         "ptyprocess": {
