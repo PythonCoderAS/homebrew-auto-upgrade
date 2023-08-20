@@ -22,6 +22,7 @@
                 "sha256:bac11286f1062613d2523ceee1ba81c676cd269812b865b66b907448a7b5f63e"
             ],
             "index": "pypi",
+            "markers": "python_version >= '3.7'",
             "version": "==0.6.2"
         }
     },
@@ -61,6 +62,7 @@
                 "sha256:248aca623f5c99a6635bc3857677b7320b9b8039f99f070ee0d20a5ca5a8e6bf"
             ],
             "index": "pypi",
+            "markers": "python_version >= '3.9'",
             "version": "==8.14.0"
         },
         "jedi": {
