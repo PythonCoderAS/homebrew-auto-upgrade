@@ -101,11 +101,11 @@
         },
         "prompt-toolkit": {
             "hashes": [
-                "sha256:99ba3dfb23d5b5af89712f89e60a5f3d9b8b67a9482ca377c5771d0e9047a34b",
-                "sha256:a371c06bb1d66cd499fecd708e50c0b6ae00acba9822ba33c586e2f16d1b739e"
+                "sha256:941367d97fc815548822aa26c2a269fdc4eb21e9ec05fc5d447cf09bad5d75f0",
+                "sha256:f36fe301fafb7470e86aaf90f036eef600a3210be4decf461a5b1ca8403d3cb2"
             ],
             "markers": "python_full_version >= '3.7.0'",
-            "version": "==3.0.40"
+            "version": "==3.0.41"
         },
         "ptyprocess": {
             "hashes": [
@@ -123,11 +123,11 @@
         },
         "pygments": {
             "hashes": [
-                "sha256:13fc09fa63bc8d8671a6d247e1eb303c4b343eaee81d861f3404db2935653692",
-                "sha256:1daff0494820c69bc8941e407aa20f577374ee88364ee10a98fdbe0aece96e29"
+                "sha256:cd0c46944b2551af02ecc15961050182ea120d3895000e2676160820f3421527",
+                "sha256:edaa0fa2453d055d0ac94449d1f73ec7bc52c5e318204da1377c1392978c4a8d"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==2.16.1"
+            "version": "==2.17.0"
         },
         "six": {
             "hashes": [
@@ -162,10 +162,10 @@
         },
         "wcwidth": {
             "hashes": [
-                "sha256:9a929bd8380f6cd9571a968a9c8f4353ca58d7cd812a4822bba831f8d685b223",
-                "sha256:a675d1a4a2d24ef67096a04b85b02deeecd8e226f57b5e3a72dbb9ed99d27da8"
+                "sha256:390c7454101092a6a5e43baad8f83de615463af459201709556b6e4b1c861f97",
+                "sha256:aec5179002dd0f0d40c456026e74a729661c9d468e1ed64405e3a6c2176ca36f"
             ],
-            "version": "==0.2.9"
+            "version": "==0.2.10"
         }
     }
 }
