@@ -18,12 +18,12 @@
     "default": {
         "aioconsole": {
             "hashes": [
-                "sha256:c702d24406378d37d9873f91e03ce71520bac503d5ab03f81d8b563ff010bd54",
-                "sha256:ee799435f77e8c3a2a7207c465feae2343a2aa537c38e8f56b629c8a321a02d0"
+                "sha256:1867a7cc86897a87398e6e6fba302738548f1cf76cbc6c76e06338e091113bdc",
+                "sha256:a3e52428d32623c96746ec3862d97483c61c12a2f2dfba618886b709415d4533"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==0.7.0"
+            "version": "==0.7.1"
         }
     },
     "develop": {
